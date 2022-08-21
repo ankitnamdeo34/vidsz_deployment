@@ -8,8 +8,8 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
-setup(name="vidsz",
-      version="0.2.0",
+setup(name="vidsz-deployment-test",
+      version="0.1.0",
       description=
       "Common Wrapper/Interface around various video reading/writing tools",
       long_description=README,
